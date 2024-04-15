@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #dddddd;
+}
+
+header {
+  background-color: #333;
+  padding: 2rem;
+}
+
+header > p {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 15vh);
+  gap: 1rem;
+}
+
+.conversor {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  width: 30%;
+}
+
+.conversor > label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.conversor > input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.conversor > button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > p {
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
